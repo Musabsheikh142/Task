@@ -1,0 +1,10 @@
+﻿using System.Xml;
+using Task;
+Console.WriteLine($"-=-=-=-=-=-=-=-=-=-=-=Student Details=-=-=-=-=-=-=-=-=-=-=-=-");
+StudentClass sc = new StudentClass();
+sc.StdClass();
+Console.WriteLine($"--------------------------Student----------------------------------");
+Console.WriteLine($"-----------------------Mobile Details------------------------------");
+MobileClass mc = new MobileClass();
+mc.Class();
+Console.ReadLine();
